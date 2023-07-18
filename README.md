@@ -29,7 +29,7 @@ In one tab, run `modal serve executor.py`
 
 Copy the URL and fill in the EXECUTOR_URL in .env
 
-In another tab, run `python cli.py ./test.png 'convert to a video`
+In another tab, run `python cli.py ./test/test.png 'convert to a video'`
 
 Your output will be printed if it's text or download and stored in a output
 directory in your current working directory otherwise.
