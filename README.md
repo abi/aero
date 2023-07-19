@@ -1,4 +1,4 @@
-Open source CLI version of code interpreter on self-hosted sandboxed infra using Modal.
+### Open source CLI version of code interpreter on self-hosted sandboxed infra using Modal.
 
 
 https://github.com/abi/aero/assets/23818/b87db048-cce5-41fe-88d6-31b899bbca5c
