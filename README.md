@@ -1,16 +1,23 @@
 Open source CLI version of code interpreter on self-hosted sandboxed infra using Modal.
 
+![Add video](./assets/ocr.mp4)
+
 ## Benefits
 
 - Has access to the Internet
-- Runs all GPT generated in an isolated, remote environment (won't delete your files by accident)
-- Modify Modal to run in a GPU environment and use any library that GPT4 knows about
+- Runs all GPT generated code in an isolated, remote environment (won't delete your files by accident)
+- Modify Modal to run in a GPU environment and use any GPU-enabled library that GPT4 knows about
 
 ## Limitations
 
-- Not using a finetuned model as suspected
-- Doesn’t figure out the structure of input file yet. It relies solely on the file format to decided how to process it.
+- Not using a finetuned GPT4 model as code interpreter is suspected to use
+- Doesn’t figure out the structure of input file yet. It relies solely on the file format to decided how to process it. (Fix coming soon)
 - Containers only contain a few packages for now. PRs welcome to support more!
+
+## TODOs
+
+- Generate two versions of the code to have a fallback if the first one fails
+- Support full list of Code Interpreter dependencies in the modal executor
 
 ## Setup
 
